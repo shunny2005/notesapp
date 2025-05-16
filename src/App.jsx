@@ -16,9 +16,9 @@ import "@aws-amplify/ui-react/styles.css";
 import { getUrl } from "aws-amplify/storage";
 import { uploadData } from "aws-amplify/storage";
 import { generateClient } from "aws-amplify/data";
-import outputs from "../amplify_outputs.json";
+import outputs from '@aws-amplify/backend/amplify_outputs';
 /**
- * @type {import('aws-amplify/data').Client<import('../amplify/data/resource').Schema>}
+ * @type {import('aws-amplify/data').Client<import('../amplify/datas/resource').Schema>}
  */
 
 Amplify.configure(outputs);
